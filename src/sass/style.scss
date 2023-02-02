@@ -1,0 +1,16 @@
+@import "base/_mixins.scss";
+@import "base/_variables.scss";
+* {
+  font-family: "MuseoModerno", cursive;
+}
+.container {
+  position: relative;
+  padding: 0 20px;
+  max-width: 950px;
+  margin: 0 auto;
+}
+@import "blocks/buttons.scss";
+@import "blocks/title";
+@import "blocks/_promo.scss";
+
+@import "media.scss";
