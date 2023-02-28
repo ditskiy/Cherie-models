@@ -1,0 +1,48 @@
+.header {
+  background: url(../img/header-bg.jpg) center center/cover no-repeat;
+  height: 800px;
+  &__title {
+    margin-top: 180px;
+    font-size: 140px;
+    line-height: 125px;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #ececec;
+    span {
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 20px;
+      letter-spacing: 0.02em;
+      margin-right: 85px;
+    }
+  }
+  &__wrapper {
+    position: relative;
+  }
+  &__btn {
+    position: absolute;
+    top: 52px;
+    right: 0px;
+  }
+  &__bot {
+    margin-top: 235px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__descr {
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  &__social {
+    display: flex;
+    column-gap: 50px;
+    a {
+      text-decoration: none;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 18px;
+      color: #ffffff;
+    }
+  }
+}

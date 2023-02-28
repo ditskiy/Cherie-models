@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  &__menu {
+    display: flex;
+    column-gap: 45px;
+    a {
+      text-decoration: none;
+      font-size: 15px;
+      line-height: 18px;
+      color: #ffffff;
+      &:hover {
+        text-decoration: underline #ffffff;
+      }
+    }
+  }
+  &__lang {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    color: #ffffff;
+  }
+  &__play {
+    line-height: 17px;
+    color: #ffffff;
+  }
+}
