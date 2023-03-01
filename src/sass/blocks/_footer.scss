@@ -1,0 +1,30 @@
+.footer {
+  padding-top: 140px;
+  padding-bottom: 30px;
+  &__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 50px;
+    a {
+      font-weight: 500;
+      font-size: 15px;
+      color: #141313;
+      &:hover {
+        text-decoration: underline #141313;
+      }
+    }
+  }
+  &__social {
+    display: flex;
+    column-gap: 12px;
+    a {
+        &:hover svg path {
+            fill: #AFAFAF;
+        }
+    }
+  }
+}

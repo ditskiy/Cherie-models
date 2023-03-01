@@ -1,0 +1,27 @@
+.blog {
+  padding-top: 140px;
+  &__items {
+    display: flex;
+    column-gap: 30px;
+    justify-content: space-between;
+  }
+  &__item {
+    h3 {
+      margin-top: 15px;
+      font-weight: 600;
+      font-size: 22px;
+      line-height: 140%;
+      letter-spacing: -0.04em;
+      color: #141313;
+    }
+    p {
+      margin-top: 15px;
+      line-height: 150%;
+      color: #4b4b4b;
+    }
+    
+    video {
+        width: 100%;
+    }
+  }
+}
