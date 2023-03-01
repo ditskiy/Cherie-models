@@ -1,0 +1,23 @@
+.textline {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 140px;
+  &__run {
+    font-size: 368.341px;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.04);
+  }
+  &__text {
+    position: absolute;
+    font-size: 156px;
+    line-height: 90%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #141313;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

@@ -1,0 +1,22 @@
+.models {
+  padding-top: 40px;
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+  }
+  &__photo {
+    display: flex;
+    column-gap: 30px;
+  }
+  &__text {
+    width: 450px;
+  }
+  &__btn {
+    position: absolute;
+    bottom: 0px;
+  }
+  &__btn-rinht {
+    right: 0px;
+  }
+}
