@@ -2,7 +2,7 @@
 @import "base/_mixins.scss";
 @import "base/_variables.scss";
 * {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 14px;
 }
@@ -12,6 +12,9 @@
   max-width: 1440px;
   margin: 0 auto;
 }
+a {
+  text-decoration: none;
+}
 hr {
   margin: 30px 0;
 }
@@ -20,5 +23,6 @@ hr {
 @import "blocks/title";
 @import "blocks/header";
 @import "blocks/news";
+@import "blocks/new-people";
 
 @import "media.scss";

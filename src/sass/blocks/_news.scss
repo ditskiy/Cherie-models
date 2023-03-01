@@ -29,6 +29,22 @@
     line-height: 22px;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    color: #4B4B4B;
+    color: #4b4b4b;
+  }
+}
+.down {
+  position: absolute;
+  display: flex;
+  column-gap: 20px;
+  right: 35px;
+  top: 7px;
+}
+.down__next,
+.down__prew {
+  width: 23px;
+  height: 23px;
+  cursor: pointer;
+  &:hover svg path {
+    fill: #141313;
   }
 }

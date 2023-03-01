@@ -12,9 +12,29 @@
   text-transform: uppercase;
   color: #ececec;
   &:hover {
-    color: #FFFFFF;;
+    color: #ffffff;
     background: #141313;
     backdrop-filter: blur(5.5px);
     border: none;
+  }
+}
+
+.profil {
+  width: 150px;
+  height: 150px;
+  padding: 52px 28px;
+  border-radius: 50%;
+  border: 1px solid #d1d1d1;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 150%;
+  text-align: center;
+  text-transform: uppercase;
+  color: #141313;
+  cursor: pointer;
+  &:hover {
+    background: #141313;
+    backdrop-filter: blur(5.5px);
+    color: #fff;
   }
 }
